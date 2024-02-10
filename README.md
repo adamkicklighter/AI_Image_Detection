@@ -3,7 +3,7 @@ Applying Computer Vision to Detect Authentic Photographs from Generative AI
 
 ## Hypothesis
 
-
+AI diffusion models will leave artifactual noise undetectable to the human eye but detectable to machine learning algoritms, enabling detection from authentic images.
 
 ## Dataset
 
