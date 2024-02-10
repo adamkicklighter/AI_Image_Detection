@@ -5,6 +5,10 @@ Applying Computer Vision to Detect Authentic Photographs from Generative AI
 
 AI diffusion models will leave artifactual noise undetectable to the human eye but detectable to machine learning algoritms, enabling detection from authentic images.
 
+## Findings
+
+Both "White Box" models and "Black Box" models are able to distinguish authentic photographs from AI images. However, these approaches fail to generalize well to either authentic photographs or AI generated photographs that are out of the distribution of the training data.
+
 ## Dataset
 
 The description below and the CIFAKE image dataset are sourced from and available in the repository here: https://github.com/2spi/ai-v-real
