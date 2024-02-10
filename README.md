@@ -3,9 +3,7 @@ Applying Computer Vision to Detect Authentic Photographs from Generative AI
 
 ## Dataset
 
-CIFAKE image dataset is available here: https://github.com/2spi/ai-v-real
-
-<small>The description below is cited from the repository referenced above.</small>
+The description below and the CIFAKE image dataset is sourced from and available in the repository here: https://github.com/2spi/ai-v-real
 
 The dataset used for training and evaluation consists of two categories of images:
 
