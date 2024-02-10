@@ -22,16 +22,15 @@ My work evaluated whether changes to the CNN architecture would help a model bet
 
 ## Test Model Performance
 Accuracy/Loss on test data
-- <b>Wide & Deep Neural Network (Pixel Intensity):</b> 0.8218, 0.4038
 - <b>CIFAKE Model:</b> 0.9298, 0.1800
 - <b>Beta Model:</b> 0.9420, 0.1935
 - <b>Gamma Model:</b> 0.9484, 0.1466
 
 ## Out of Distribution Model Performance (Similar Subjects)
 Accuracy/Precision/Recall
--<b>CIFAKE Model:</b> 0.5125, 1.000, 0.0250
--<b>Beta Model:</b> 0.5500, 0.8333, 0.1250
--<b>Gamma Model:</b> 0.5125, 0.5556, 0.1250
+- <b>CIFAKE Model:</b> 0.5125, 1.000, 0.0250
+- <b>Beta Model:</b> 0.5500, 0.8333, 0.1250
+- <b>Gamma Model:</b> 0.5125, 0.5556, 0.1250
 
 ## Dataset
 
