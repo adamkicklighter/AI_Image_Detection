@@ -20,6 +20,9 @@ My work evaluated whether changes to the CNN architecture would help a model bet
 - Training data will need to be consistently updated to keep pace with changing technology
 - Watermarks or other signatures may simplify detection and remove the onus from ML solutions
 
+## Model Performance
+
+- <b>Wide & Deep Neural Network (Pixel Intensity):</b>
 
 ## Dataset
 
