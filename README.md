@@ -11,7 +11,15 @@ Both "White Box" models and "Black Box" models are able to distinguish authentic
 
 ## Contributions
 
-My work evaluated whether changes to the CNN architecture would help a model better generalize to out of distribution images. All of the CNN designs and methods tried were unable to overcome these limitations, including changes to data augmentation, network regularization, and activation functions. In the case of the "White Box" model, while pixel intensity was a good discriminator for images within the training data distribution, 
+My work evaluated whether changes to the CNN architecture would help a model better generalize to out of distribution images. All of the CNN designs and methods tried were unable to overcome these limitations, including changes to data augmentation, network regularization, and activation functions. In the case of the "White Box" model, while pixel intensity was a good discriminator for images within the training data distribution, it was even more prone to overtraining than the "Black Box" approach.
+
+## Conclusions
+
+- Models appeared to learn what was “real” by memorizing the class label in the training data, and images that didn’t match those patterns were predicted as fake
+- Performant AI detection systems will need a large sample of generated content across models and styles to mitigate sampling bias
+- Training data will need to be consistently updated to keep pace with changing technology
+- Watermarks or other signatures may simplify detection and remove the onus from ML solutions
+
 
 ## Dataset
 
