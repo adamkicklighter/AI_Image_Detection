@@ -19,7 +19,7 @@ My work evaluated whether changes to the CNN architecture would help a model bet
 - Performant AI detection systems will need a large sample of generated content across models and styles to mitigate sampling bias
 - Training data will need to be consistently updated to keep pace with changing technology
 - Watermarks or other signatures may simplify detection and remove the onus from ML solutions
-- For further information, please review the Presentation "Seeing is Believing" found in this repository.
+- For further information, please review the Presentation "Seeing is Believing" found in this repository
 
 ## Test Model Performance
 Accuracy/Loss on test data
