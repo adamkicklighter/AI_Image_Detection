@@ -20,16 +20,15 @@ My work evaluated whether changes to the CNN architecture would help a model bet
 - Training data will need to be consistently updated to keep pace with changing technology
 - Watermarks or other signatures may simplify detection and remove the onus from ML solutions
 
-## Model Performance
+## Test Model Performance
 Accuracy/Loss on test data
 - <b>Wide & Deep Neural Network (Pixel Intensity):</b> 0.8218, 0.4038
 - <b>CIFAKE Model:</b> 0.9298, 0.1800
 - <b>Beta Model:</b> 0.9420, 0.1935
 - <b>Gamma Model:</b> 0.9484, 0.1466
 
-<br>
-
-Accuracy/Precision/Recall on Out of Distribution images with *Similar* Subjects
+## Out of Distribution Model Performance (Similar Subjects)
+Accuracy/Precision/Recall
 -<b>CIFAKE Model:</b> 0.5125, 1.000, 0.0250
 -<b>Beta Model:</b> 0.5500, 0.8333, 0.1250
 -<b>Gamma Model:</b> 0.5125, 0.5556, 0.1250
