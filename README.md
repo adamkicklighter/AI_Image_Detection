@@ -11,7 +11,7 @@ Both "White Box" models and "Black Box" models are able to distinguish authentic
 
 ## Contributions
 
-My work evaluated whether changes to the CNN architecture would help a model better generalize to out of distribution images. All of the CNN designs and methods tried were unable to overcome these limitations, including changes to data augmentation, network regularization, and activation functions. In the case of the "White Box" model, while pixel intensity was a good discriminator for images within the training data distribution, it was even more prone to overtraining than the "Black Box" approach.
+My work evaluated whether changes to the CNN architecture would help a model better generalize to out of distribution images. I was able to achieve better accuracy than the CIFAKE model on the testing data, but my enhanced models were not able to correctly identified out of distribution images. All of the CNN designs and methods tried were unable to overcome these limitations, including changes to data augmentation, network regularization, and activation functions. In the case of the "White Box" model, while pixel intensity was a good discriminator for images within the training data distribution, it was even more prone to overtraining than the "Black Box" approach.
 
 ## Conclusions
 
@@ -21,8 +21,10 @@ My work evaluated whether changes to the CNN architecture would help a model bet
 - Watermarks or other signatures may simplify detection and remove the onus from ML solutions
 
 ## Model Performance
-
-- <b>Wide & Deep Neural Network (Pixel Intensity):</b>
+Accuracy/Loss
+- <b>Wide & Deep Neural Network (Pixel Intensity):</b> 0.8218, 0.4038
+- <b>CIFAKE Model:</b> 0.9298, 0.1800
+- 
 
 ## Dataset
 
