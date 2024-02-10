@@ -25,7 +25,9 @@ Accuracy/Loss on test data
 - <b>Wide & Deep Neural Network (Pixel Intensity):</b> 0.8218, 0.4038
 - <b>CIFAKE Model:</b> 0.9298, 0.1800
 - <b>Beta Model:</b> 0.9420, 0.1935
-- <b>Gamma Model:</b> 0.9484, 0.1466<br>
+- <b>Gamma Model:</b> 0.9484, 0.1466
+
+<br>
 
 Accuracy/Precision/Recall on Out of Distribution images with *Similar* Subjects
 -<b>CIFAKE Model:</b> 0.5125, 1.000, 0.0250
