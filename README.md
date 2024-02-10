@@ -11,7 +11,7 @@ Both "White Box" models and "Black Box" models are able to distinguish authentic
 
 ## Contributions
 
-This work evaluated whether changes to the CNN architecture would help a model better generalize to out of distribution images. 
+My work evaluated whether changes to the CNN architecture would help a model better generalize to out of distribution images. All of the CNN designs and methods tried were unable to overcome these limitations, including changes to data augmentation, network regularization, and activation functions. In the case of the "White Box" model, while pixel intensity was a good discriminator for images within the training data distribution, 
 
 ## Dataset
 
