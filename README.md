@@ -7,7 +7,7 @@ AI diffusion models will leave artifactual noise undetectable to the human eye b
 
 ## Findings
 
-Both "White Box" models and "Black Box" models are able to distinguish authentic photographs from AI images. However, these approaches fail to generalize well to either authentic photographs or AI generated photographs that are out of the distribution of the training data. These findings counter those of Bird and Lofti, who demonstrated that CNN can detect the provenance of images. While their work demonstrates that a CNN *can*
+Both "White Box" models and "Black Box" models are able to distinguish authentic photographs from AI images. However, these approaches fail to generalize well to either authentic photographs or AI generated photographs that are out of the distribution of the training data. These findings counter those of Bird and Lofti, who demonstrated that CNN can detect the provenance of images. While their work demonstrates that a CNN *can* correctly label an AI generated image as being produced from a diffusion model, the CNN model made available in their repository labels *all* images not found in the "REAL" dataset as Fake, including 
 
 ## Dataset
 
